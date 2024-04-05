@@ -6,9 +6,10 @@ This project was created in JS on classes
 Select and move the desired elements  
 Select and move all elements in both directions  
 Delete items  
-Add items  
+Add items 
+Sorting
 Reset all  
-Search for the desired item  
+Live search for the desired item  
 
 
 ## Available Scripts
