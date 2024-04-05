@@ -6,8 +6,8 @@ This project was created in JS on classes
 Select and move the desired elements  
 Select and move all elements in both directions  
 Delete items  
-Add items 
-Sorting
+Add items   
+Sorting  
 Reset all  
 Live search for the desired item  
 
