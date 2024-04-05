@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ArrangeBox</title>
+</head>
+<body>
+    <div class="capabilities__box">
+        <div class="search">
+            <input type="search__item" placeholder="Search.." class="search">
+        </div>
+        <div class="buttons">
+            <div class="add-source">
+                <input type="text" class="add-source__new">
+                <button class="button__new btn">Add New</button>
+                <!-- <button class="button__delete btn">Delete New</button> -->
+
+            </div>
+            <button class="button__delete btn">Delete selected</button>
+            <button class="button__reset btn">Reset all</button>
+        </div>
+        <div class="sorting">
+            <select name="Choose" id="sorting-options" class="sorting__items">
+                <option value="all"  data-filter="all" class="sorting__items-drop">All</option>
+                <option value="language" data-filter="language" class="sorting__items-drop">Language</option>
+                <option value="framework" data-filter="framework" class="sorting__items-drop">Framework</option>
+                <option value="style" data-filter="style" class="sorting__items-drop">Style</option>
+                <option value="builder" data-filter="builder" class="sorting__items-drop">Builder</option>
+            </select>
+            </div>
+    </div>
+    <div class="wrapper">
+        <div class="source2__box container all">   
+        </div>
+        <div class="buttons__box">
+            <button class="button__box_right btn">></button>
+            <button class="button__box_rightAll btn">>></button>
+            <button class="button__box_left btn"><</button>
+            <button class="button__box_leftAll btn"><<</button>
+        </div>
+        <div class="result__box container"> </div>
+    </div> 
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
